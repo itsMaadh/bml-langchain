@@ -10,3 +10,5 @@ Examples:
 | <img width="416" alt="image" src="https://github.com/itsMaadh/bml-langchain/assets/41133253/a073674a-5d88-4a3a-ab09-fe97efc4dce3"> | <img width="757" alt="image" src="https://github.com/itsMaadh/bml-langchain/assets/41133253/ee06afb2-856f-4e90-b6ca-6327c1ba8ecd"> |
 |:--:| :--: |
 | *BML Aaya bot understands the question is about credit card but cannot answer the question* | *Langchain bot is able to answer the question accurately* |
+
+The langchain version is also able to do small calculations using the data that has been provided. For example, try asking `What will be the total including fees for a Mobilepay transaction of 700USD?`. This checks the fee bounds and perform the calculation based on the amount provided.
