@@ -1,0 +1,5 @@
+# Ignore .env files
+.env
+
+# IDE files
+.DS_Store
