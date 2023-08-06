@@ -43,8 +43,9 @@ pdf_qa = ConversationalRetrievalChain.from_llm(
 
 # App framework
 st.title("💵 Bank of Maldives GPT")
-st.info(
-    'This is a demo of the conversational retrieval chain. The model is trained on the Bank of Maldives FAQ page only. The model is not perfect, but it`s a good start. Try asking questions like "When is the bank open?" or "How much would the MobilePay fee be for 700 USD?"'
+st.markdown(
+    "This is a demo of the conversational retrieval chain. The model is trained on the <a href='https://www.bankofmaldives.com.mv/faqs' target='_blank'>Bank of Maldives FAQ</a> page only. The model is not perfect, but it`s a good start. Try asking questions like 'When is the bank open?' or 'How much would the MobilePay fee be for 700 USD?'",
+    unsafe_allow_html=True,
 )
 prompt = st.text_input("Here to answer your banking related questions..")
 
